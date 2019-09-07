@@ -12,8 +12,7 @@ export default {
     msg: String
   },
   computed: {
-    ...mapGetters(['moduleA/get_moudleA']),
-    
+    ...mapGetters(['moduleA/get_moudleA'])
   },
   created() {
     console.log(this.$store.getters['moduleA/get_moudleA'])
