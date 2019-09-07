@@ -12,7 +12,6 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'home',
   components: {
@@ -20,7 +19,7 @@ export default {
   },
   methods: {
     goAbout() {
-      this.$router.push({path: '/about'})
+      this.$router.push({ path: '/about' })
     }
   }
 }
