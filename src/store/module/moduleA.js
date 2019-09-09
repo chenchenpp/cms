@@ -5,18 +5,18 @@ export default {
   },
   getters: {
     get_moudleA(state) {
-      console.log(state)
-      return state.moudleA
+      console.log(state);
+      return state.moudleA;
     }
   },
   mutations: {
     set_moudleA(state, value) {
-      state.moudleA = value
+      state.moudleA = value;
     }
   },
   actions: {
     change_moudleA({ commit }, value) {
-      commit('set_moudleA', value)
+      commit('set_moudleA', value);
     }
   }
-}
+};
