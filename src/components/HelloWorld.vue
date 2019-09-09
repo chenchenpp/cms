@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import { mapGetters } from 'vuex';
 export default {
   name: 'HelloWorld',
   props: {
@@ -15,9 +15,9 @@ export default {
     ...mapGetters(['moduleA/get_moudleA'])
   },
   created() {
-    console.log(this.$store.getters['moduleA/get_moudleA'])
+    console.log(this.$store.getters['moduleA/get_moudleA']);
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

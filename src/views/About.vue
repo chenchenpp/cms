@@ -9,8 +9,8 @@ export default {
   name: 'about',
   methods: {
     goHome() {
-      this.$router.push({path: '/'})
+      this.$router.push({ path: '/' });
     }
   }
-}
+};
 </script>
