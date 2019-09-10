@@ -1,7 +1,7 @@
 const CompressionPlugin = require('compression-webpack-plugin');
 const productionGzipExtensions = ['js', 'css'];
-const path=require('path');
-const { CleanWebpackPlugin }=require('clean-webpack-plugin')
+const path = require('path');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const server = {
   target: 'http://172.16.16.8', // .8开发环境  .11 测试环境
   secure: false
@@ -23,13 +23,6 @@ module.exports = {
       }
     }
   },
-  // configureWebpack: {
-  //   plugins: [
-  //     new CleanWebpackPlugin({     //是在每次build之前，清除dist目录
-  //       cleanOnceBeforeBuildPatterns: [path.resolve(__dirname,'dist')]
-  //     })
-  //   ]
-  // }
   configureWebpack: config => {
     // 生产模式
     if (process.env.NODE_ENV === 'production') {

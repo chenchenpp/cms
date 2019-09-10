@@ -17,11 +17,11 @@
 <script>
 import { getUserComTravelersByUserId } from '@/util/request/api.js';
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+// import HelloWorld from '@/components/HelloWorld.vue';
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    // HelloWorld
   },
   methods: {
     goAbout() {

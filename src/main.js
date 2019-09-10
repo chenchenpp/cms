@@ -5,6 +5,7 @@ import store from './store/store';
 import './plugins/element.js';
 import './assets/iconfont/iconfont.js';
 import { get, post } from './util/request/http';
+import './components/global';
 require('./assets/sass/reset.scss');
 Vue.prototype.$get = get;
 Vue.prototype.$post = post;
