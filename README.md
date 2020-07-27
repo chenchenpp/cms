@@ -1,4 +1,4 @@
-# cms
+# vue-pc
 
 ## Project setup
 ```
